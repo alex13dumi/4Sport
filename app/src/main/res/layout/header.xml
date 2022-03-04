@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#2196F3"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_person_black_24dp" />
+
+    <TextView
+        android:id="@+id/fullname_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/profile_image"
+        android:fontFamily="sans-serif-black"
+        android:includeFontPadding="false"
+        android:text="harry_smith"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/username_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fullname_field"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/profile_image"
+        android:includeFontPadding="false"
+        android:text="harry_smith_user"
+        android:textSize="14sp" />
+</LinearLayout>
