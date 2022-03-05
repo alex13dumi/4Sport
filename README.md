@@ -5,4 +5,4 @@ Prerequisites for running:
 * Android Studio
 * phpMyAdmin
 
-I would like to thank Vlad Calincu who worked with me.
+I would like to thank [Vlad Calincu](https://github.com/vcalincov) who worked with me.
